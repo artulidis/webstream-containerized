@@ -38,7 +38,7 @@ The following diagram depicts the general structure of the application's design 
 
 <br />
 
-![Application Structure Diagram](/readme/application-diagram.png)
+![Application Structure Diagram](/assets/application-diagram.png)
 
 <br />
 
@@ -292,12 +292,12 @@ To serve the HLS files to the browser in **m3u8** format, the **hls_fragment** a
 
 <br />
 
-![AK Streaming Discover](/readme/akstream-discover.png)
+![AK Streaming Discover](/assets/akstream-discover.png)
 
-![AK Streaming Configure](/readme/akstream-configure.png)
+![AK Streaming Configure](/assets/akstream-configure.png)
 
-![AK Streaming Profile](/readme/akstream-profile.png)
+![AK Streaming Profile](/assets/akstream-profile.png)
 
-![AK Streaming Watch](/readme/akstream-watch.png)
+![AK Streaming Watch](/assets/akstream-watch.png)
 
 <br />
