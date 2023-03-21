@@ -18,13 +18,13 @@ Part 3: Project Screenshots
     
 * Create an .env file in the root directory of the project and add the following credentials:
 
-    1. **POSTGRES_DB**: the name of the PostgreSQL database.
+    * **POSTGRES_DB**: the name of the PostgreSQL database.
 
-    2. **POSTGRES_USER**: the PostgreSQL username.
+    * **POSTGRES_USER**: the PostgreSQL username.
 
-    3. **POSTGRES_PASSWORD**: the PostgreSQL password.
+    * **POSTGRES_PASSWORD**: the PostgreSQL password.
 
-    4. **SECRET_KEY**: the secret key for Django sessions and cookies.
+    * **SECRET_KEY**: the secret key for Django sessions and cookies.
 
 * This application is runs best on a Linux machine.
 
@@ -38,7 +38,7 @@ The following diagram depicts the general structure of the application's design 
 
 <br />
 
-![Application Structure Diagram](/README/application-diagram.png)
+![Application Structure Diagram](/readme/application-diagram.png)
 
 <br />
 
@@ -292,12 +292,12 @@ To serve the HLS files to the browser in **m3u8** format, the **hls_fragment** a
 
 <br />
 
-![AK Streaming Discover](/README/akstream-discover.png)
+![AK Streaming Discover](/readme/akstream-discover.png)
 
-![AK Streaming Configure](/README/akstream-configure.png)
+![AK Streaming Configure](/readme/akstream-configure.png)
 
-![AK Streaming Profile](/README/akstream-profile.png)
+![AK Streaming Profile](/readme/akstream-profile.png)
 
-![AK Streaming Watch](/README/akstream-watch.png)
+![AK Streaming Watch](/readme/akstream-watch.png)
 
 <br />
