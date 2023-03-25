@@ -50,7 +50,7 @@ The website is hosted inside a Docker container and uses Docker Compose to build
 
 3.  Postgres: The database server stores and retrieves data from the database.
 
-4.  Redis: The in-memory database server is used as a message broker to send messages accross channel layers.
+4.  Redis: The in-memory database server is used as a message broker to send messages across channel layers.
 
 5.  Celery: The distributed task queue is used to process asynchronous tasks, such as starting live streams.
 
@@ -113,6 +113,10 @@ The application uses HTTP requests to either communicate with the API, or to sta
     def push_stream(ip_addr, ffmpeg_command):
         ffmpeg_command = ffmpeg_command.replace("127.0.0.1", ip_addr)
         os.system(ffmpeg_command)
+    ```
+    
+    ```
+    ffmpeg -f video4linux2 -i /dev/video0 -t 5 -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -s 1200x720 -r 30 -b:v 1500k -maxrate 7000k -c:a aac -b:a 128k -ac 2 -ar 44100 -f flv rtmp://127.0.0.1:1935/live/0006
     ```
 
 <br />
